@@ -1,0 +1,33 @@
+:root {
+  --background: #1d2a34;
+  --secondary: #34b4ec;
+  --primary: #5c90ac;
+  --card-background: #1c536c;
+}
+* {
+  box-sizing: border-box;
+}
+main {
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 40px;
+  color: var(--secondary);
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+}

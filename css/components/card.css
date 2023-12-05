@@ -1,0 +1,57 @@
+.card {
+  background-color: #1c536c;
+  margin: 22px 18px;
+  border: 1px solid #252629;
+  padding: 3% 10%;
+  scroll-margin-top: 100px;
+  border-radius: 2rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.card__title {
+  font-size: 26px;
+  color: var(--secondary);
+}
+
+.card__bookmark {
+  width: 50px;
+  position: absolute;
+  right: 16px;
+  top: -16px;
+}
+.card__text {
+  color: white;
+  margin: 16px 0;
+  font-size: 22px;
+  display: none;
+}
+
+.card__button {
+  border-radius: 8px;
+  align-self: center;
+  font-size: large;
+  color: white;
+  background-color: #34b4ec;
+  width: 180px;
+  height: 55px;
+}
+.card__tags {
+  margin: 28px 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.card__tag {
+  color: var(--primary);
+  background-color: #f4ecac;
+  border: 1px solid black;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+#showAnswerButton:focus + .card__text {
+  display: block;
+}

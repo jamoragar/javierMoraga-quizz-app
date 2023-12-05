@@ -1,0 +1,8 @@
+/* Global properties */
+@import "global.css";
+/* Header properties  */
+@import "./components/header.css";
+/* Card properties */
+@import "./components/card.css";
+/* Footer properties */
+@import "./components/footer.css";
