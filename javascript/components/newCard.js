@@ -29,6 +29,12 @@ form.addEventListener('submit', function(e){
   const {questions, answer, tags} = data;
   createNewCard(questions, answer, tags)
 
+  textareas.forEach(textarea => {
+    const textareaId = textarea.id;
+    const charCount = document.querySelector(`[data-js="${textareaId}"]`);
+    charCount.textContent = '150 characters left.';
+  });
+
   form.reset();
 })
 
