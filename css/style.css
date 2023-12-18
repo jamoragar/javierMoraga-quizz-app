@@ -6,3 +6,5 @@
 @import "./components/card.css";
 /* Footer properties */
 @import "./components/footer.css";
+/* New Card Nav Button */
+@import "./components/newCard.css";

@@ -1,0 +1,46 @@
+.questionsForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 5px 10%;
+  margin-top: 5%;
+}
+.label {
+  color: var(--primary);
+  justify-self: start;
+  font-size: 18px;
+  font-weight: 600;
+}
+.newCard__textarea {
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.newCard__input {
+  border-radius: 12px;
+  height: 2.4rem;
+}
+.formButton {
+  margin: 8% 0;
+  place-self: center;
+  background-color: #3ab8c8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  min-height: 30px;
+  min-width: 120px;
+}
+.formButton:hover {
+  background-color: #23727c;
+  transition: 0.6s;
+}
+.formButton:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 4px #4b9fd6;
+}
+.charCount {
+  text-align: right;
+  font-size: 16px;
+  color: gray;
+}

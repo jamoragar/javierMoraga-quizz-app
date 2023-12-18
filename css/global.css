@@ -7,6 +7,30 @@
 * {
   box-sizing: border-box;
 }
+.dark-mode {
+  background-color: white;
+}
+.dark-mode p {
+  color: black;
+}
+.dark-mode h1 {
+  color: black;
+}
+.dark-mode h2 {
+  color: black;
+}
+.dark-mode h3 {
+  color: black;
+}
+.dark-mode h4 {
+  color: black;
+}
+.dark-mode .settings-section h2 {
+  color: black;
+}
+.dark-mode .settings__option h4 {
+  color: black;
+}
 main {
   max-height: calc(100vh - 210px);
   overflow-y: auto;

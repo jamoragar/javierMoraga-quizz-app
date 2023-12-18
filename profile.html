@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css//components/profile.css" />
+    <script src="./javascript/components/darkMode.js" defer></script>
     <title>Profile</title>
   </head>
   <body>
@@ -23,6 +24,7 @@
           <h2 class="profile__title">Javier Moraga</h2>
         </div>
         <div class="profile__text">
+          <h3>About me:</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
             repudiandae veniam exercitationem minus, accusantium fuga tempore.
@@ -53,7 +55,7 @@
             <li class="settings__option">
               <h4>Dark mode:</h4>
               <label class="switch">
-                <input type="checkbox" checked />
+                <input id="darkModeToggle" type="checkbox" checked />
                 <span class="slider round"></span>
               </label>
             </li>
@@ -77,8 +79,17 @@
             <a href="./bookmark.html">
               <img
                 class="navigation__icon"
-                src="./assets/imgs/bookmark_filled.png"
+                src="./assets/imgs/bookmark_transparent.png"
                 alt="bookmarks_page"
+              />
+            </a>
+          </li>
+          <li class="navigation__link">
+            <a href="./newCard.html">
+              <img
+                class="navigation__icon"
+                src="./assets/imgs/add.webp"
+                alt="addCard_page"
               />
             </a>
           </li>

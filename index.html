@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./javascript/components/toggle.js" defer></script>
+    <script type="module" src="./javascript/components/index.js" defer></script>
+
     <title>Quizz App</title>
   </head>
   <body>
@@ -19,14 +22,15 @@
             live in The Big Bang Theory?
           </h2>
           <img
+            id="first-bookmark"
             class="card__bookmark"
             src="./assets/imgs/bookmark.png"
             alt="bookmark"
           />
-          <button id="showAnswerButton" class="card__button">
+          <button id="first-showAnswerButton" class="card__button">
             Show Answer!
           </button>
-          <div class="card__text" id="answerText">
+          <div class="card__text" id="first-answerText">
             Answer: The Pasadena Cheesecake Factory Apartments
           </div>
           <div class="card__tags">
@@ -122,7 +126,7 @@
             <a href="./index.html">
               <img
                 class="navigation__icon"
-                src="./assets/imgs/home_filled.png"
+                src="./assets/imgs/home.png"
                 alt="home_page"
               />
             </a>
@@ -133,6 +137,15 @@
                 class="navigation__icon"
                 src="./assets/imgs/bookmark_transparent.png"
                 alt="bookmarks_page"
+              />
+            </a>
+          </li>
+          <li class="navigation__link">
+            <a href="./newCard.html">
+              <img
+                class="navigation__icon"
+                src="./assets/imgs/add.webp"
+                alt="addCard_page"
               />
             </a>
           </li>

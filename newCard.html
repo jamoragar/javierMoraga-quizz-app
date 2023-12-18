@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./javascript/components/newCard.js" defer></script>
+    <title>Quizz App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Big Bang Theory Quiz</h1>
+      <hr />
+    </header>
+    <main>
+      <div class="container" data-js="container">
+        <form data-js="questionsForm" class="questionsForm">
+          <label class="label" for="questions">Your question:</label>
+          <textarea
+            class="newCard__textarea"
+            name="questions"
+            id="questions"
+            maxlength="150"
+            rows="8"
+          ></textarea>
+          <span class="charCount" data-js="questions">150 characters left</span>
+
+          <label class="label" for="answer">Your answer:</label>
+          <textarea
+            class="newCard__textarea"
+            name="answer"
+            id="answer"
+            maxlength="150"
+            rows="8"
+          ></textarea>
+          <span class="charCount" data-js="answer">150 characters left</span>
+
+          <label class="label" for="tags">Tag:</label>
+          <input class="newCard__input" type="text" name="tags" id="tags" />
+          <button class="formButton" type="submit" data-js="submit-button">
+            Submit!
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul class="footer__navbar">
+          <li class="navigation__link">
+            <a href="./index.html">
+              <img
+                class="navigation__icon"
+                src="./assets/imgs/home.png"
+                alt="home_page"
+              />
+            </a>
+          </li>
+          <li class="navigation__link">
+            <a href="./bookmark.html">
+              <img
+                class="navigation__icon"
+                src="./assets/imgs/bookmark_transparent.png"
+                alt="bookmarks_page"
+              />
+            </a>
+          </li>
+          <li class="navigation__link active">
+            <a href="./newCard.html">
+              <img
+                class="navigation__icon"
+                src="./assets/imgs/add.webp"
+                alt="addCard_page"
+              />
+            </a>
+          </li>
+          <li class="navigation__link">
+            <a href="./profile.html">
+              <img
+                class="navigation__icon"
+                src="./assets/imgs/profile.png"
+                alt="profile_page"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
